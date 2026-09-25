@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+    "input": {
+      "tempo": 9,
+      "idade": 50,
+      "sexo": "M",
+      "ativo": "0"
+    },
+    "expected": {
+      "raw": {
+        "vo2": 30.17,
+        "mets": 8.62
+      },
+      "tol": 0.02,
+      "level": "low"
+    },
+    "originalInput": {
+      "tempo": 9,
+      "idade": 50,
+      "sexo": "M",
+      "ativo": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+    "input": {
+      "tempo": 6,
+      "idade": 50,
+      "sexo": "M",
+      "ativo": "0"
+    },
+    "expected": {
+      "raw": {
+        "vo2": 20.17,
+        "mets": 5.763
+      },
+      "tol": 0.02,
+      "level": "mid"
+    },
+    "originalInput": {
+      "tempo": 6,
+      "idade": 50,
+      "sexo": "M",
+      "ativo": "0"
+    },
+    "expandedZeroOptions": []
+  }
+]

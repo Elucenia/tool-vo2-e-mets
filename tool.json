@@ -1,0 +1,171 @@
+{
+  "tool": {
+    "id": "vo2-e-mets",
+    "title": "VO₂ estimado, METs e capacidade funcional",
+    "short": "A partir do tempo no protocolo de Bruce",
+    "spec": [
+      "medicina-esportiva",
+      "cardiologia"
+    ],
+    "desc": "Estime o VO₂ máximo e os METs pelo tempo de exercício no protocolo de Bruce (Foster) e compare com o previsto para idade e sexo (índice de déficit funcional).",
+    "lead": "Estima o consumo máximo de oxigênio e os METs pelo tempo no protocolo de Bruce e compara com o previsto para idade, sexo e nível de atividade.",
+    "fields": [
+      [
+        "tempo",
+        "Tempo de exercício (Bruce)",
+        "num",
+        {
+          "min": 1,
+          "max": 27,
+          "step": "0.1",
+          "unit": "min",
+          "ph": "9"
+        }
+      ],
+      [
+        "idade",
+        "Idade",
+        "num",
+        {
+          "min": 15,
+          "max": 100,
+          "unit": "anos",
+          "ph": "50"
+        }
+      ],
+      [
+        "sexo",
+        "Sexo",
+        "radio",
+        {
+          "opts": {
+            "F": "Feminino",
+            "M": "Masculino"
+          }
+        }
+      ],
+      [
+        "ativo",
+        "Fisicamente ativo?",
+        "radio",
+        {
+          "opts": {
+            "0": "Não",
+            "1": "Sim"
+          }
+        }
+      ]
+    ],
+    "formula": "<ul><li><strong>VO₂ (Foster, Bruce):</strong> 14,8 − 1,379 × t + 0,451 × t² − 0,012 × t³ (mL/kg/min; t em minutos)</li><li><strong>METs</strong> = VO₂ ÷ 3,5</li><li><strong>VO₂ previsto (Bruce):</strong> homens sedentários 57,8 − 0,445 × idade; ativos 69,7 − 0,612 × idade; mulheres sedentárias 42,3 − 0,356 × idade; ativas 42,9 − 0,312 × idade</li><li><strong>Déficit funcional (FAI)</strong> = (previsto − obtido) ÷ previsto × 100</li></ul>",
+    "table": [
+      [
+        "Capacidade",
+        "METs"
+      ],
+      [
+        "Ruim",
+        "&lt; 5"
+      ],
+      [
+        "Regular",
+        "5 a 7"
+      ],
+      [
+        "Boa",
+        "8 a 10"
+      ],
+      [
+        "Excelente",
+        "&gt; 10"
+      ]
+    ],
+    "tips": [
+      "Cada MET a mais de capacidade funcional se associa a cerca de 12% menos mortalidade (Myers 2002).",
+      "O VO₂ estimado pela esteira tende a superestimar o medido quando o paciente se apoia no corrimão: oriente a não segurar.",
+      "Para medir o VO₂ de verdade (atletas, insuficiência cardíaca, dispneia a esclarecer), indique o teste cardiopulmonar de exercício (TCPE).",
+      "Capacidade &lt; 4 METs (não sobe dois lances de escada) é marcador de maior risco em avaliação pré-operatória."
+    ],
+    "sources": [
+      [
+        "Foster C et al. Generalized equations for predicting functional capacity from treadmill performance. Am Heart J, 1984.",
+        "https://doi.org/10.1016/0002-8703(84)90282-5"
+      ],
+      [
+        "Bruce RA, Kusumi F, Hosmer D. Maximal oxygen intake and nomographic assessment of functional aerobic impairment in cardiovascular disease. Am Heart J, 1973.",
+        "https://doi.org/10.1016/0002-8703(73)90502-4"
+      ],
+      [
+        "Myers J et al. Exercise capacity and mortality among men referred for exercise testing. N Engl J Med, 2002.",
+        "https://doi.org/10.1056/NEJMoa011858"
+      ]
+    ],
+    "cases": [
+      [
+        "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        {
+          "tempo": 9,
+          "idade": 50,
+          "sexo": "M",
+          "ativo": "0"
+        },
+        {
+          "raw": {
+            "vo2": 30.17,
+            "mets": 8.62
+          },
+          "tol": 0.02,
+          "level": "low"
+        }
+      ],
+      [
+        "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        {
+          "tempo": 6,
+          "idade": 50,
+          "sexo": "M",
+          "ativo": "0"
+        },
+        {
+          "raw": {
+            "vo2": 20.17,
+            "mets": 5.763
+          },
+          "tol": 0.02,
+          "level": "mid"
+        }
+      ]
+    ],
+    "batch": "cardiologia",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cirurgia-sentidos",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cardiologia.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 2,
+      "passed": 2,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cardiologia.php",
+    "sha256": "ed536451dd02922a7f840f2c9ce575be004cddb227f60426b7a52cf1b0e94ec0",
+    "bytes": 61303
+  },
+  "clinicalValidation": "not-performed"
+}
