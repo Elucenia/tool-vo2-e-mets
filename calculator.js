@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-vo2-e-mets · Elucenia · https://github.com/Elucenia/tool-vo2-e-mets
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"vo2-e-mets","title":"VO₂ estimado, METs e capacidade funcional","fields":[["tempo","Tempo de exercício (Bruce)","num",{"min":1,"max":27,"step":"0.1","unit":"min","ph":"9"}],["idade","Idade","num",{"min":15,"max":100,"unit":"anos","ph":"50"}],["sexo","Sexo","radio",{"opts":{"F":"Feminino","M":"Masculino"}}],["ativo","Fisicamente ativo?","radio",{"opts":{"0":"Não","1":"Sim"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
