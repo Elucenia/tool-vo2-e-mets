@@ -1,6 +1,15 @@
 [
   {
-    "label": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+    "id": "vo2-e-mets",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+    "originalInput": {
+      "tempo": 9,
+      "idade": 50,
+      "sexo": "M",
+      "ativo": "0"
+    },
     "input": {
       "tempo": 9,
       "idade": 50,
@@ -15,16 +24,39 @@
       "tol": 0.02,
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "8,6",
+        "METs"
+      ],
+      "label": "Capacidade funcional estimada",
+      "raw": {
+        "vo2": 30.172000000000004,
+        "mets": 8.620571428571429,
+        "pred": 35.55,
+        "fai": 15.127988748241894
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "vo2-e-mets",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
     "originalInput": {
-      "tempo": 9,
+      "tempo": 6,
       "idade": 50,
       "sexo": "M",
       "ativo": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
     "input": {
       "tempo": 6,
       "idade": 50,
@@ -39,12 +71,26 @@
       "tol": 0.02,
       "level": "mid"
     },
-    "originalInput": {
-      "tempo": 6,
-      "idade": 50,
-      "sexo": "M",
-      "ativo": "0"
+    "recordedResult": {
+      "main": [
+        "5,8",
+        "METs"
+      ],
+      "label": "Capacidade funcional estimada",
+      "raw": {
+        "vo2": 20.17,
+        "mets": 5.762857142857143,
+        "pred": 35.55,
+        "fai": 43.263009845288316
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

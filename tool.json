@@ -3,12 +3,13 @@
     "id": "vo2-e-mets",
     "title": "VO₂ estimado, METs e capacidade funcional",
     "short": "A partir do tempo no protocolo de Bruce",
+    "desc": "Estime o VO₂ máximo e os METs pelo tempo de exercício no protocolo de Bruce (Foster) e compare com o previsto para idade e sexo (índice de déficit funcional).",
+    "lead": "Estima o consumo máximo de oxigênio e os METs pelo tempo no protocolo de Bruce e compara com o previsto para idade, sexo e nível de atividade.",
+    "kind": "Calculadora",
     "spec": [
       "medicina-esportiva",
       "cardiologia"
     ],
-    "desc": "Estime o VO₂ máximo e os METs pelo tempo de exercício no protocolo de Bruce (Foster) e compare com o previsto para idade e sexo (índice de déficit funcional).",
-    "lead": "Estima o consumo máximo de oxigênio e os METs pelo tempo no protocolo de Bruce e compara com o previsto para idade, sexo e nível de atividade.",
     "fields": [
       [
         "tempo",
@@ -57,34 +58,6 @@
       ]
     ],
     "formula": "<ul><li><strong>VO₂ (Foster, Bruce):</strong> 14,8 − 1,379 × t + 0,451 × t² − 0,012 × t³ (mL/kg/min; t em minutos)</li><li><strong>METs</strong> = VO₂ ÷ 3,5</li><li><strong>VO₂ previsto (Bruce):</strong> homens sedentários 57,8 − 0,445 × idade; ativos 69,7 − 0,612 × idade; mulheres sedentárias 42,3 − 0,356 × idade; ativas 42,9 − 0,312 × idade</li><li><strong>Déficit funcional (FAI)</strong> = (previsto − obtido) ÷ previsto × 100</li></ul>",
-    "table": [
-      [
-        "Capacidade",
-        "METs"
-      ],
-      [
-        "Ruim",
-        "&lt; 5"
-      ],
-      [
-        "Regular",
-        "5 a 7"
-      ],
-      [
-        "Boa",
-        "8 a 10"
-      ],
-      [
-        "Excelente",
-        "&gt; 10"
-      ]
-    ],
-    "tips": [
-      "Cada MET a mais de capacidade funcional se associa a cerca de 12% menos mortalidade (Myers 2002).",
-      "O VO₂ estimado pela esteira tende a superestimar o medido quando o paciente se apoia no corrimão: oriente a não segurar.",
-      "Para medir o VO₂ de verdade (atletas, insuficiência cardíaca, dispneia a esclarecer), indique o teste cardiopulmonar de exercício (TCPE).",
-      "Capacidade &lt; 4 METs (não sobe dois lances de escada) é marcador de maior risco em avaliação pré-operatória."
-    ],
     "sources": [
       [
         "Foster C et al. Generalized equations for predicting functional capacity from treadmill performance. Am Heart J, 1984.",
@@ -97,6 +70,10 @@
       [
         "Myers J et al. Exercise capacity and mortality among men referred for exercise testing. N Engl J Med, 2002.",
         "https://doi.org/10.1056/NEJMoa011858"
+      ],
+      [
+        "Foster1984",
+        "https://www.sciencedirect.com/science/article/pii/0002870384902825/pdf?md5=b82463125b785d7b4c7bb66e5b29bf38&pid=1-s2.0-0002870384902825-main.pdf"
       ]
     ],
     "cases": [
@@ -135,9 +112,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -146,17 +120,450 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:11:12.503Z",
+      "total": 56,
+      "passed": 56,
+      "sourceRowCount": 56,
+      "uniqueApiInputCount": 56,
+      "sourceContextCount": 56,
+      "scope": "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved.",
+      "originalSourceRowCount": 56,
+      "localRejectionContractCount": 0,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "a594eaaca73ba732ddd268bf4661615ed05a6a690b508fddcb216401dc98826e",
+        "total": 56,
+        "bankRowCount": 56,
+        "uniqueApiInputCount": 56,
+        "sourceContextCount": 56,
+        "fullStoredSourceRows": 56,
+        "localRejectionContractCount": 0,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/root-physiology-independent-expectations-final31-r2.json",
+            "sha256": "bc426fb2ff7230f076e54fd4cb9ed20eb528f60466a7e74aefd8be54da17da89"
+          },
+          {
+            "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+            "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+          },
+          {
+            "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+            "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+          "sha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32"
+        },
+        "packagingRequirement": "Artifact contains all429original source rows across6methods, split424accepted numericcases+5separate local rejection contracts. Preserve source indices, original mathematical expectations and old sample precision expectations."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 56,
+        "uniqueApiInputs": 56,
+        "duplicateRows": 0
+      },
+      "sources": [
+        {
+          "rootPrimaryReview": {
+            "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+            "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+          },
+          "independentPrimaryReview": {
+            "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+            "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+          },
+          "targetedReadings": [
+            {
+              "id": "vo2-e-mets",
+              "url": "https://www.ijpefs.org/index.php/ijpefs/article/download/104/102/101",
+              "edition": "Chittibabu2014 handball training study, DOI10.26524/1432",
+              "access": "Actual original publisher PDF web reader opened; targeted Methods printed6/7 read, not claimed full original1984 coefficient table.",
+              "readScope": "12malehandballplayers20–24years; rounded polynomial14.8−1.379t+0.451t²−0.012t³.",
+              "selectedScope": "Canonical-decimal Fraction evaluation of that rounded polynomial only.",
+              "excluded": [
+                "OriginalFoster1984 full equation equivalence",
+                "Sex/age/activity prediction andFAI",
+                "Fitness classes or clinical application to other populations"
+              ]
+            },
+            {
+              "id": "vo2-e-mets",
+              "url": "https://www.ahajournals.org/doi/epdf/10.1161/CIR.0000000000000749",
+              "edition": "Franklin2020 AHA scientific statement selected conventionalMET definition",
+              "access": "Direct PDF web open failed; personally read official indexed e706 excerpt, not full statement.",
+              "readScope": "Conventional1MET=3.5mL/kg/min.",
+              "selectedScope": "Division of polynomial VO2 by3.5 only.",
+              "excluded": [
+                "Clinical risk,outcomes,exercise hazards or eligibility"
+              ]
+            }
+          ],
+          "declaredOriginalMethodVersion": "Foster 1984 polinomial Bruce; Bruce 1973 VO 2 poridade/atividade; METVO 2/3,5; FAI",
+          "sourceEditionsUnchanged": true,
+          "scope": "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+      "evidenceSha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32",
+      "independentPeer": {
+        "evidence": {
+          "file": "reports/review-20261003/root-physiology-independent-peer-publication-final31-r3.json",
+          "sha256": "2117b8908ee7ab1a8787ead1ce59bb3d3a422dbfe57d83501d746e9dcfbccd91"
+        },
+        "status": "passed-scoped-mathematical",
+        "ownNormalDistQuantilesIndependent": true,
+        "packagingPeer": "pending",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/vo2-e-mets/calculator.js",
+          "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/vo2-e-mets/calculator.js",
+          "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/vo2-e-mets/calculator.js",
+          "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+        }
+      ],
+      "qualifications": [
+        "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved.",
+        "Continuous selected fields preserve the original source31R2 criterion1e-11×max(1,abs expected); integer/string fields use exact equality. Parent original fixtures/tolerances and all862historic source cases remain unchanged.",
+        "Three implementations and original actual Node/VM/Chromium captures are hash bound. Fresh Node/VM and complete-bank helper replays are separate from served portal, UI or new build gates.",
+        "Independent expected values: root initial429 mathematically authored before its imports; only84sample expecteds were revised to independently evaluated six-decimal quantiles with old printed-prose expected retained. Independent peer used NormalDist rather than root numerical-integration series.",
+        "No compensation/clinical diagnosis, exercise prediction/FAI, universally applicable dose,1969reticulocyte hard boundaries,44week clinical threshold, study-design suitability, professional language, rights or full-method approval.",
+        "Source28/29/30 and sample documentary amendment are independent ownership: compose evidence leaves over the latest source and recompute counters rather than replacing old whole catalogs."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Foster 1984 polinomial Bruce; Bruce 1973 VO 2 poridade/atividade; METVO 2/3,5; FAI",
+    "implementationVersion": "vo2-e-mets@native-2026-10-03+928bb8397d84",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/6720550/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "VO₂ (Foster, Bruce): 14,8 − 1,379 × t + 0,451 × t² − 0,012 × t³ (mL/kg/min; t em minutos) METs = VO₂ ÷ 3,5 VO₂ previsto (Bruce): homens sedentários 57,8 − 0,445 × idade; ativos 69,7 − 0,612 × idade; mulheres sedentárias 42,3 − 0,356 × idade; ativas 42,9 − 0,312 × idade Déficit funcional (FAI) = (previsto − obtido) ÷ previsto × 100",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "tempo",
+            "label": "Tempo de exercício (Bruce)",
+            "type": "num",
+            "min": 1,
+            "max": 27,
+            "unit": "min",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "num",
+            "min": 15,
+            "max": 100,
+            "unit": "anos",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "sexo",
+            "label": "Sexo",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "F": "Feminino",
+              "M": "Masculino"
+            }
+          },
+          {
+            "key": "ativo",
+            "label": "Fisicamente ativo?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Não",
+              "1": "Sim"
+            }
+          }
+        ],
+        "hash": "d2a6fb7831bc67f2189646bd147302e2955d99f2e5f05cd5a8827074f514e07f"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Foster C et al. Generalized equations for predicting functional capacity from treadmill performance. Am Heart J, 1984.",
+          "url": "https://doi.org/10.1016/0002-8703(84)90282-5",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Generalized equations for predicting functional capacity from treadmill performance.",
+            "year": "1984",
+            "firstPublicationDate": "1984-06-01",
+            "doi": "10.1016/0002-8703(84)90282-5",
+            "pmid": "6720550",
+            "journal": "American heart journal",
+            "authors": "Foster C, Jackson AS, Pollock ML, Taylor MM, Hare J, Sennett SM, Rod JL, Sarwar M, Schmidt DH."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/6720550/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Bruce RA, Kusumi F, Hosmer D. Maximal oxygen intake and nomographic assessment of functional aerobic impairment in cardiovascular disease. Am Heart J, 1973.",
+          "url": "https://doi.org/10.1016/0002-8703(73)90502-4",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Maximal oxygen intake and nomographic assessment of functional aerobic impairment in cardiovascular disease.",
+            "year": "1973",
+            "firstPublicationDate": "1973-04-01",
+            "doi": "10.1016/0002-8703(73)90502-4",
+            "pmid": "4632004",
+            "journal": "American heart journal",
+            "authors": "Bruce RA, Kusumi F, Hosmer D."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/4632004/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Myers J et al. Exercise capacity and mortality among men referred for exercise testing. N Engl J Med, 2002.",
+          "url": "https://doi.org/10.1056/NEJMoa011858",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Exercise capacity and mortality among men referred for exercise testing.",
+            "year": "2002",
+            "firstPublicationDate": "2002-03-01",
+            "doi": "10.1056/nejmoa011858",
+            "pmid": "11893790",
+            "journal": "The New England journal of medicine",
+            "authors": "Myers J, Prakash M, Froelicher V, Do D, Partington S, Atwood JE."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/11893790/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "e8581e6920f6ed3c94128760022821873f0b30293d26b858e61bd213d79f9bbe",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:11:12.503Z",
+        "total": 56,
+        "passed": 56,
+        "sourceRowCount": 56,
+        "uniqueApiInputCount": 56,
+        "sourceContextCount": 56,
+        "scope": "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved.",
+        "originalSourceRowCount": 56,
+        "localRejectionContractCount": 0,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "a594eaaca73ba732ddd268bf4661615ed05a6a690b508fddcb216401dc98826e",
+          "total": 56,
+          "bankRowCount": 56,
+          "uniqueApiInputCount": 56,
+          "sourceContextCount": 56,
+          "fullStoredSourceRows": 56,
+          "localRejectionContractCount": 0,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/root-physiology-independent-expectations-final31-r2.json",
+              "sha256": "bc426fb2ff7230f076e54fd4cb9ed20eb528f60466a7e74aefd8be54da17da89"
+            },
+            {
+              "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+              "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+            },
+            {
+              "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+              "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+            "sha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32"
+          },
+          "packagingRequirement": "Artifact contains all429original source rows across6methods, split424accepted numericcases+5separate local rejection contracts. Preserve source indices, original mathematical expectations and old sample precision expectations."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 56,
+          "uniqueApiInputs": 56,
+          "duplicateRows": 0
+        },
+        "sources": [
+          {
+            "rootPrimaryReview": {
+              "file": "reports/review-20261003/root-physiology-primary-source-review-final31.json",
+              "sha256": "f5ccf9103d09b716bdfa382beb8ff2ec10398f00ef7e9dabdb1f8c1e1bad5a9b"
+            },
+            "independentPrimaryReview": {
+              "file": "reports/review-20261003/root-physiology-primary-independent-review-publication-final31.json",
+              "sha256": "1e217f15dd23ca326014d4453efd10d59ec5e196fc311993f763ae12ee5b82c6"
+            },
+            "targetedReadings": [
+              {
+                "id": "vo2-e-mets",
+                "url": "https://www.ijpefs.org/index.php/ijpefs/article/download/104/102/101",
+                "edition": "Chittibabu2014 handball training study, DOI10.26524/1432",
+                "access": "Actual original publisher PDF web reader opened; targeted Methods printed6/7 read, not claimed full original1984 coefficient table.",
+                "readScope": "12malehandballplayers20–24years; rounded polynomial14.8−1.379t+0.451t²−0.012t³.",
+                "selectedScope": "Canonical-decimal Fraction evaluation of that rounded polynomial only.",
+                "excluded": [
+                  "OriginalFoster1984 full equation equivalence",
+                  "Sex/age/activity prediction andFAI",
+                  "Fitness classes or clinical application to other populations"
+                ]
+              },
+              {
+                "id": "vo2-e-mets",
+                "url": "https://www.ahajournals.org/doi/epdf/10.1161/CIR.0000000000000749",
+                "edition": "Franklin2020 AHA scientific statement selected conventionalMET definition",
+                "access": "Direct PDF web open failed; personally read official indexed e706 excerpt, not full statement.",
+                "readScope": "Conventional1MET=3.5mL/kg/min.",
+                "selectedScope": "Division of polynomial VO2 by3.5 only.",
+                "excluded": [
+                  "Clinical risk,outcomes,exercise hazards or eligibility"
+                ]
+              }
+            ],
+            "declaredOriginalMethodVersion": "Foster 1984 polinomial Bruce; Bruce 1973 VO 2 poridade/atividade; METVO 2/3,5; FAI",
+            "sourceEditionsUnchanged": true,
+            "scope": "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/root-physiology-independent-source-check-final31-r2.json",
+        "evidenceSha256": "a8df3bff60f64099bd601fa79c0f9e5bd9724d2fdc3bc1770726ac3941a2fd32",
+        "independentPeer": {
+          "evidence": {
+            "file": "reports/review-20261003/root-physiology-independent-peer-publication-final31-r3.json",
+            "sha256": "2117b8908ee7ab1a8787ead1ce59bb3d3a422dbfe57d83501d746e9dcfbccd91"
+          },
+          "status": "passed-scoped-mathematical",
+          "ownNormalDistQuantilesIndependent": true,
+          "packagingPeer": "pending",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/vo2-e-mets/calculator.js",
+            "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/vo2-e-mets/calculator.js",
+            "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/vo2-e-mets/calculator.js",
+            "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+          }
+        ],
+        "qualifications": [
+          "56 selected rounded2014handball-study polynomial VO2 and conventionalMET=VO2/3.5 arithmetic scenarios only. Original1984 full coefficient table, age/sex/activity predictedVO2,FAI, fitness/prognosis categories and general clinical applicability are not approved.",
+          "Continuous selected fields preserve the original source31R2 criterion1e-11×max(1,abs expected); integer/string fields use exact equality. Parent original fixtures/tolerances and all862historic source cases remain unchanged.",
+          "Three implementations and original actual Node/VM/Chromium captures are hash bound. Fresh Node/VM and complete-bank helper replays are separate from served portal, UI or new build gates.",
+          "Independent expected values: root initial429 mathematically authored before its imports; only84sample expecteds were revised to independently evaluated six-decimal quantiles with old printed-prose expected retained. Independent peer used NormalDist rather than root numerical-integration series.",
+          "No compensation/clinical diagnosis, exercise prediction/FAI, universally applicable dose,1969reticulocyte hard boundaries,44week clinical threshold, study-design suitability, professional language, rights or full-method approval.",
+          "Source28/29/30 and sample documentary amendment are independent ownership: compose evidence leaves over the latest source and recompute counters rather than replacing old whole catalogs."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+    },
+    "limits": "O tempo usado para estimar VO₂ deve ser o do protocolo de esteira Bruce correspondente, não a duração de qualquer exercício. A equação fornece uma previsão, não consumo de oxigênio medido por análise de gases. MET usa a convenção de 3,5 mL/kg/min; isso não mede o metabolismo de repouso da pessoa. Referências de capacidade prevista e associações prognósticas são específicas da população: Myers 2002 estudou homens encaminhados para teste clínico. Não extrapole automaticamente para crianças, outros protocolos ou risco individual de morte.",
+    "limitsEvidence": {
+      "status": "primary-publisher-indexed-introduction-and-original-cohort-abstract-read",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/0002870384902825/pdf?md5=b82463125b785d7b4c7bb66e5b29bf38&pid=1-s2.0-0002870384902825-main.pdf",
+          "edition": "Foster1984",
+          "readScope": "Original publisher-indexed introduction read:population-specificregressions,limitedrange,and Bruceprotocol applicability. Direct publisherPDFerror;fullMethods/cohortranges not read."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa011858",
+          "edition": "Myers2002",
+          "readScope": "Exact original abstract fully read:6213men referredfor clinicaltreadmilltesting,mortalityassociation not universalindividualrisk."
+        },
+        {
+          "url": "https://doi.org/10.1016/0002-8703(73)90502-4",
+          "edition": "Bruce1973",
+          "readScope": "Identity only;original equation tables not read."
+        }
+      ],
+      "populationScope": "Protocol- and reference-population-dependent exercise-capacity estimate,not direct oxygen measurement.",
+      "remainingChecks": [
+        "FullFoster1984 Methods and range not read.",
+        "OriginalBruce1973 formula tables not read.",
+        "No universally measuredrestingMET or prognosticriskmodel."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/vo2-e-mets/calculator.js",
+    "bytes": 5220,
+    "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "a70823541d06144f447878d14caa6674e94fa58fb197bd1cf6274bbe9bfcd7a9",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "37a096042c800b56a9d15447d615e1be7a33c24c2abc4b0b717c12015616b576",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "37a096042c800b56a9d15447d615e1be7a33c24c2abc4b0b717c12015616b576",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

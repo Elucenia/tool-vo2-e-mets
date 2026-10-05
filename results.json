@@ -1,0 +1,262 @@
+{
+  "id": "vo2-e-mets",
+  "at": "2026-10-05T17:30:14.528Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/vo2-e-mets/calculator.js",
+    "bytes": 5220,
+    "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+  },
+  "cases": [
+    {
+      "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+      "input": {
+        "tempo": 9,
+        "idade": 50,
+        "sexo": "M",
+        "ativo": "0"
+      },
+      "obtained": {
+        "id": "vo2-e-mets",
+        "main": [
+          "8,6",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "raw": {
+          "vo2": 30.172000000000004,
+          "mets": 8.620571428571429,
+          "pred": 35.55,
+          "fai": 15.127988748241894
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.vo2",
+          "expected": 30.17,
+          "obtained": 30.172000000000004,
+          "tolerance": 0.02,
+          "difference": 0.0020000000000024443,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.mets",
+          "expected": 8.62,
+          "obtained": 8.620571428571429,
+          "tolerance": 0.02,
+          "difference": 0.0005714285714297773,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vo2",
+          "expected": 30.172000000000004,
+          "obtained": 30.172000000000004,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mets",
+          "expected": 8.620571428571429,
+          "obtained": 8.620571428571429,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.pred",
+          "expected": 35.55,
+          "obtained": 35.55,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.fai",
+          "expected": 15.127988748241894,
+          "obtained": 15.127988748241894,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "8,6",
+          "obtained": "8,6",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "METs",
+          "obtained": "METs",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+      "input": {
+        "tempo": 6,
+        "idade": 50,
+        "sexo": "M",
+        "ativo": "0"
+      },
+      "obtained": {
+        "id": "vo2-e-mets",
+        "main": [
+          "5,8",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "raw": {
+          "vo2": 20.17,
+          "mets": 5.762857142857143,
+          "pred": 35.55,
+          "fai": 43.263009845288316
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.vo2",
+          "expected": 20.17,
+          "obtained": 20.17,
+          "tolerance": 0.02,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.mets",
+          "expected": 5.763,
+          "obtained": 5.762857142857143,
+          "tolerance": 0.02,
+          "difference": 0.00014285714285655615,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vo2",
+          "expected": 20.17,
+          "obtained": 20.17,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mets",
+          "expected": 5.762857142857143,
+          "obtained": 5.762857142857143,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.pred",
+          "expected": 35.55,
+          "obtained": 35.55,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.fai",
+          "expected": 43.263009845288316,
+          "obtained": 43.263009845288316,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "5,8",
+          "obtained": "5,8",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "METs",
+          "obtained": "METs",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 30,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}
