@@ -253,7 +253,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Foster 1984 polinomial Bruce; Bruce 1973 VO 2 poridade/atividade; METVO 2/3,5; FAI",
-    "implementationVersion": "vo2-e-mets@native-2026-10-03+928bb8397d84",
+    "implementationVersion": "vo2-e-mets@native-2026-10-05+b0e4cb09d899",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/6720550/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -511,7 +511,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+      "implementationHash": "b0e4cb09d899f7cb51b99b328b5073d9c78dcd3bba47c15f4edfadcd1f41412f",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "vo2-e-mets@native-2026-10-03+928bb8397d84",
+          "previousImplementationHash": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31",
+          "implementationHash": "b0e4cb09d899f7cb51b99b328b5073d9c78dcd3bba47c15f4edfadcd1f41412f",
+          "scientificBodySha256": "adeed52ee5910f0f67ec0cfd7292a4418a0dd9c02834c571f384f50ebee006d0",
+          "metadataContractHash": "d2a6fb7831bc67f2189646bd147302e2955d99f2e5f05cd5a8827074f514e07f",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O tempo usado para estimar VO₂ deve ser o do protocolo de esteira Bruce correspondente, não a duração de qualquer exercício. A equação fornece uma previsão, não consumo de oxigênio medido por análise de gases. MET usa a convenção de 3,5 mL/kg/min; isso não mede o metabolismo de repouso da pessoa. Referências de capacidade prevista e associações prognósticas são específicas da população: Myers 2002 estudou homens encaminhados para teste clínico. Não extrapole automaticamente para crianças, outros protocolos ou risco individual de morte.",
     "limitsEvidence": {
@@ -547,20 +575,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/vo2-e-mets/calculator.js",
-    "bytes": 5220,
-    "sha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31"
+    "bytes": 5425,
+    "sha256": "b0e4cb09d899f7cb51b99b328b5073d9c78dcd3bba47c15f4edfadcd1f41412f"
   },
-  "sourceToolSha256": "a70823541d06144f447878d14caa6674e94fa58fb197bd1cf6274bbe9bfcd7a9",
+  "sourceToolSha256": "6fd06b2f0e88a27b5c2daa0a8f388306940ce1329b88001ac551ddc23c29ef1a",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "37a096042c800b56a9d15447d615e1be7a33c24c2abc4b0b717c12015616b576",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "37a096042c800b56a9d15447d615e1be7a33c24c2abc4b0b717c12015616b576",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

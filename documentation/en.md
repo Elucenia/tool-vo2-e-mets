@@ -89,3 +89,29 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Good functional capacity
+
+| Result details | |
+| --- | --- |
+| Estimated VO₂ | 30.2 mL/kg/min |
+| Predicted VO₂ | 35.6 mL/kg/min |
+| Functional deficit (FAI) | 15% |
+
+
+### 2
+
+Regular functional capacity
+
+| Result details | |
+| --- | --- |
+| Estimated VO₂ | 20.2 mL/kg/min |
+| Predicted VO₂ | 35.6 mL/kg/min |
+| Functional deficit (FAI) | 43% |
+

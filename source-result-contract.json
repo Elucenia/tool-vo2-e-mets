@@ -1,0 +1,166 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "vo2-e-mets",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "63783f794ac17d136d1db226ed4627e531bb2268",
+    "oldEngineSha256": "928bb8397d8471c01e4b882db95faba56bf643cfc855c3a9ebf9428c9dff8d31",
+    "currentEngineSha256": "b0e4cb09d899f7cb51b99b328b5073d9c78dcd3bba47c15f4edfadcd1f41412f"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+      "input": {
+        "tempo": 9,
+        "idade": 50,
+        "sexo": "M",
+        "ativo": "0"
+      },
+      "publicOutput": {
+        "id": "vo2-e-mets",
+        "main": [
+          "8,6",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "raw": {
+          "vo2": 30.172000000000004,
+          "mets": 8.620571428571429,
+          "pred": 35.55,
+          "fai": 15.127988748241894
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vo2": 30.17,
+          "mets": 8.62
+        },
+        "tol": 0.02,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "8,6",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "level": "low",
+        "verdict": "Capacidade funcional boa",
+        "rows": [
+          [
+            "VO₂ estimado",
+            "30,2 mL/kg/min"
+          ],
+          [
+            "VO₂ previsto",
+            "35,6 mL/kg/min"
+          ],
+          [
+            "Déficit funcional (FAI)",
+            "15%"
+          ]
+        ],
+        "raw": {
+          "vo2": 30.172000000000004,
+          "mets": 8.620571428571429,
+          "pred": 35.55,
+          "fai": 15.127988748241894
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+      "input": {
+        "tempo": 6,
+        "idade": 50,
+        "sexo": "M",
+        "ativo": "0"
+      },
+      "publicOutput": {
+        "id": "vo2-e-mets",
+        "main": [
+          "5,8",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "raw": {
+          "vo2": 20.17,
+          "mets": 5.762857142857143,
+          "pred": 35.55,
+          "fai": 43.263009845288316
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vo2": 20.17,
+          "mets": 5.763
+        },
+        "tol": 0.02,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5,8",
+          "METs"
+        ],
+        "label": "Capacidade funcional estimada",
+        "level": "mid",
+        "verdict": "Capacidade funcional regular",
+        "rows": [
+          [
+            "VO₂ estimado",
+            "20,2 mL/kg/min"
+          ],
+          [
+            "VO₂ previsto",
+            "35,6 mL/kg/min"
+          ],
+          [
+            "Déficit funcional (FAI)",
+            "43%"
+          ]
+        ],
+        "raw": {
+          "vo2": 20.17,
+          "mets": 5.762857142857143,
+          "pred": 35.55,
+          "fai": 43.263009845288316
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

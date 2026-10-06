@@ -89,3 +89,29 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Buona capacità funzionale
+
+| Dettagli del risultato | |
+| --- | --- |
+| VO₂ stimato | 30,2 mL/kg/min |
+| VO₂ previsto | 35,6 mL/kg/min |
+| Deficit funzionale (FAI) | 15% |
+
+
+### 2
+
+Capacità funzionale discreta
+
+| Dettagli del risultato | |
+| --- | --- |
+| VO₂ stimato | 20,2 mL/kg/min |
+| VO₂ previsto | 35,6 mL/kg/min |
+| Deficit funzionale (FAI) | 43% |
+

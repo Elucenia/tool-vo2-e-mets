@@ -1,0 +1,1229 @@
+{
+  "id": "vo2-e-mets",
+  "implementationVersion": "vo2-e-mets@native-2026-10-05+b0e4cb09d899",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "30,2 mL/kg/min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit funcional (FAI)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacidade funcional boa",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimado",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "20,2 mL/kg/min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit funcional (FAI)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacidade funcional regular",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Estimated VO₂",
+                "locale": "en",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30.2 mL/kg/min",
+                "locale": "en",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Predicted VO₂",
+                "locale": "en",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "en",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Functional deficit (FAI)",
+                "locale": "en",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "en",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Good functional capacity",
+            "locale": "en",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Estimated VO₂",
+                "locale": "en",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20.2 mL/kg/min",
+                "locale": "en",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Predicted VO₂",
+                "locale": "en",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "en",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Functional deficit (FAI)",
+                "locale": "en",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "en",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Regular functional capacity",
+            "locale": "en",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimado",
+                "locale": "es",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30,2 mL/kg/min",
+                "locale": "es",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "es",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "es",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit funcional (FAI)",
+                "locale": "es",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "es",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacidad funcional buena",
+            "locale": "es",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimado",
+                "locale": "es",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20,2 mL/kg/min",
+                "locale": "es",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "es",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "es",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit funcional (FAI)",
+                "locale": "es",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "es",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacidad funcional regular",
+            "locale": "es",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimée",
+                "locale": "fr",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30,2 mL/kg/min",
+                "locale": "fr",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ prévue",
+                "locale": "fr",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "fr",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit fonctionnel (FAI)",
+                "locale": "fr",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "fr",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Bonne capacité fonctionnelle",
+            "locale": "fr",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ estimée",
+                "locale": "fr",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20,2 mL/kg/min",
+                "locale": "fr",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ prévue",
+                "locale": "fr",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "fr",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Déficit fonctionnel (FAI)",
+                "locale": "fr",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "fr",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacité fonctionnelle moyenne",
+            "locale": "fr",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Geschätztes VO₂",
+                "locale": "de",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30,2 mL/kg/min",
+                "locale": "de",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorhergesagtes VO₂",
+                "locale": "de",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "de",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Funktionelles Defizit (FAI)",
+                "locale": "de",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "de",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gute funktionelle Kapazität",
+            "locale": "de",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Geschätztes VO₂",
+                "locale": "de",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20,2 mL/kg/min",
+                "locale": "de",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorhergesagtes VO₂",
+                "locale": "de",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "de",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Funktionelles Defizit (FAI)",
+                "locale": "de",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "de",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Mäßige funktionelle Kapazität",
+            "locale": "de",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ stimato",
+                "locale": "it",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30,2 mL/kg/min",
+                "locale": "it",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "it",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "it",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Deficit funzionale (FAI)",
+                "locale": "it",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "it",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Buona capacità funzionale",
+            "locale": "it",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ stimato",
+                "locale": "it",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20,2 mL/kg/min",
+                "locale": "it",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ previsto",
+                "locale": "it",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35,6 mL/kg/min",
+                "locale": "it",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Deficit funzionale (FAI)",
+                "locale": "it",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "it",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Capacità funzionale discreta",
+            "locale": "it",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ المقدَّر",
+                "locale": "ar",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "٣٠٫٢ mL/kg/min",
+                "locale": "ar",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "٣٥٫٦ mL/kg/min",
+                "locale": "ar",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "العجز الوظيفي (FAI)",
+                "locale": "ar",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "١٥%",
+                "locale": "ar",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "قدرة وظيفية جيدة",
+            "locale": "ar",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "VO₂ المقدَّر",
+                "locale": "ar",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "٢٠٫٢ mL/kg/min",
+                "locale": "ar",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "VO₂ المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "٣٥٫٦ mL/kg/min",
+                "locale": "ar",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "العجز الوظيفي (FAI)",
+                "locale": "ar",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "٤٣%",
+                "locale": "ar",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "قدرة وظيفية متوسطة",
+            "locale": "ar",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "估计 VO₂",
+                "locale": "zh",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30.2 mL/kg/min",
+                "locale": "zh",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "预测 VO₂",
+                "locale": "zh",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "zh",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "功能缺损（FAI）",
+                "locale": "zh",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "zh",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "功能状态良好",
+            "locale": "zh",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "估计 VO₂",
+                "locale": "zh",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20.2 mL/kg/min",
+                "locale": "zh",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "预测 VO₂",
+                "locale": "zh",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "zh",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "功能缺损（FAI）",
+                "locale": "zh",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "zh",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "一般功能状态",
+            "locale": "zh",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "推定 VO₂",
+                "locale": "ja",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30.2 mL/kg/min",
+                "locale": "ja",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "予測 VO₂",
+                "locale": "ja",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "ja",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "機能的低下（FAI）",
+                "locale": "ja",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "ja",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "良好な機能的能力",
+            "locale": "ja",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "推定 VO₂",
+                "locale": "ja",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20.2 mL/kg/min",
+                "locale": "ja",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "予測 VO₂",
+                "locale": "ja",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "ja",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "機能的低下（FAI）",
+                "locale": "ja",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "ja",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "中等の機能的能力",
+            "locale": "ja",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Bruce, 9 minutos (homem, 50 anos): VO₂ 30,2 mL/kg/min = 8,6 METs",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अनुमानित VO₂",
+                "locale": "hi",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "30.2 mL/kg/min",
+                "locale": "hi",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  30.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "पूर्वानुमानित VO₂",
+                "locale": "hi",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "hi",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "कार्यात्मक कमी (FAI)",
+                "locale": "hi",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "15%",
+                "locale": "hi",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अच्छी कार्यात्मक क्षमता",
+            "locale": "hi",
+            "template": "documented-authored-845f764f1ecb59452e26"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Bruce, 6 minutos: VO₂ 20,2 mL/kg/min = 5,8 METs (regular)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अनुमानित VO₂",
+                "locale": "hi",
+                "template": "documented-authored-c36f97aee7777f236855"
+              },
+              "value": {
+                "text": "20.2 mL/kg/min",
+                "locale": "hi",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  20.2
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "पूर्वानुमानित VO₂",
+                "locale": "hi",
+                "template": "documented-authored-20b051865aa35c7c59c0"
+              },
+              "value": {
+                "text": "35.6 mL/kg/min",
+                "locale": "hi",
+                "template": "documented-authored-6549de5f5a8f8e4d953a",
+                "sourceNumbers": [
+                  35.6
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "कार्यात्मक कमी (FAI)",
+                "locale": "hi",
+                "template": "documented-authored-651c3032c8d92cca5d4d"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "hi",
+                "template": "documented-authored-7666a8f79c899911aa4b",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "सामान्य कार्यात्मक क्षमता",
+            "locale": "hi",
+            "template": "documented-authored-767ea7490b6e39060328"
+          },
+          "level": "mid"
+        }
+      }
+    ]
+  }
+}

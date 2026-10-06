@@ -89,3 +89,29 @@ tool.json 包含来源、版本和审查范围。examples.json 保留合成输�
 Apache-2.0 仅适用于 ELUCENIA 代码。工具、出版物、翻译和数据的权利仍归各自权利人所有。请保留 LICENSE 和 NOTICE。
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## 已记录的结果
+
+以下信息保留该方法对合成示例的输出，不构成独立的临床验证。
+
+### 1
+
+功能状态良好
+
+| 结果详情 | |
+| --- | --- |
+| 估计 VO₂ | 30.2 mL/kg/min |
+| 预测 VO₂ | 35.6 mL/kg/min |
+| 功能缺损（FAI） | 15% |
+
+
+### 2
+
+一般功能状态
+
+| 结果详情 | |
+| --- | --- |
+| 估计 VO₂ | 20.2 mL/kg/min |
+| 预测 VO₂ | 35.6 mL/kg/min |
+| 功能缺损（FAI） | 43% |
+
